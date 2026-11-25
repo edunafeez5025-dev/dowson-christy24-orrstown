@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="first">
+        <div class="soft">
+            <h1>FDIC</h1>
+            <div class="words">
+                FDIC-insured - Backed by the full faith and <br>credit of U.S.Government
+            </div>
+        </div>
+    </div>
+    <div class="sec2" id="second">
+        <div class="form">
+            <div class="img">
+                <img src="orr.jpg" alt="bank img" class="img1" width="200">
+            </div>
+        </div>
+        <div class="logo-divider"></div>
+        <div class="form">
+            <input type="text" id="logi" placeholder="Login ID">
+            <br>
+            <!-- <input type="password" id="password" placeholder="Password"> -->
+            <div class="password-box">
+                <input type="password" id="password" placeholder="Password">
+
+                <i class="fa-regular fa-eye-slash" id="togglePassword"></i>
+            </div>
+            <br>
+            <!-- <div class="tos">
+            <i class="fa-solid fa-toggle-off"></i>
+            <p class="rem">Remember me</p>
+            </div> -->
+            <div class="tos">
+                <label class="switch">
+                    <input type="checkbox" id="rememberToggle">
+                    <span class="slider"></span>
+                </label>
+
+                <p class="rem">Remember me</p>
+            </div>
+
+            <small id="already">Forget your password?</small>
+            <br>
+            <button id="btnDis">Log in </button>
+        </div>
+        <div class="divider"></div>
+        <div class="face">
+            <div class="face">
+                <div class="face-item">Face ID</div>
+                <div class="face-item">Passcode</div>
+            </div>
+        </div>
+        <div class="loc">
+            <div class="win">
+                <p>Locations | </p>
+                <p>Privacy Policy |</p>
+                <p> Enroll</p>
+            </div>
+            <p class="use">Forget Username?</p>
+        </div>
+        <div class="redirect" id="direct">
+            <div class="spin"></div>
+        </div>
+    </div>
+    <!-- ...Forgot password..... -->
+    <div class="third" id="third">
+        <form class="forgot" id="forgotPD">
+            <img src="orr.jpg" alt="" width="200">
+            <h1>Forgot Password</h1>
+            <p>Enter your email to receive a password reset link</p>
+            <label>Email</label>
+            <input type="Email" id="emailFg" placeholder="Enter your email">
+            <br>
+            <!-- <i class="fa-solid fa-money-check-dollar"></i> -->
+            <button id="btnFg">Send Password Reset Link</button>
+            <div class="divider"></div>
+            <p id="back">Back to <a id="log" href="#">Login</a></p>
+        </form>
+
+
+    </div>
+    <div class="down">
+        <p>FDIC</p>
+      <i class="fa-solid fa-house-chimney"></i>
+        <!-- <i class="fa-regular fa-house"></i> -->
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

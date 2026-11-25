@@ -1,0 +1,466 @@
+ * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        /* padding: 20px; */
+        /* min-height:100vh ; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: rgba(0, 250, 154, 0.644); */
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:  darkgoldenrod;
+        width: 100%;
+        /* max-width: 800px; */
+        height: auto;
+        /* margin-bottom: 80px; */
+        padding: 15px;
+
+    }
+
+    .words {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .words p {
+        font-size: 1.3rem;
+        line-height: 1.6;
+    }
+
+    .emo i {
+        font-size: 1.3rem;
+        color: black;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(46, 139, 85, 0.637);
+        width: 100%;
+        /* max-width: 800px; */
+        height: 300px;
+        /* margin-bottom: 80px; */
+        padding: 15px;
+    }
+
+    .craig img {
+        margin-top: 75px;
+    }
+
+    .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+    .cards {
+        width: 100%;
+        max-width: 390px;
+        height: 320px;
+        box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.322);
+        border-radius: 7px;
+        position: relative;
+        bottom: 50px;
+        background-color: white;
+        padding: 10px;
+    } 
+    
+
+
+    .cards h1 {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        color: #0000008c;
+    }
+
+    .cards p {
+        font-size: smaller;
+        color: #0000008c;
+        margin-bottom: 10px;
+    }
+   
+
+    .dollar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* margin-bottom: 80px; */
+        /* background-color: red; */
+        /* height: 90px; */
+        background-color: red;
+    }
+
+    .dolls i {
+        font-size: 80px;
+        color: rgba(128, 128, 128, 0.226);
+
+    }
+
+    .dollar p {
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 100px;
+        font-size: 1rem;
+        color: #0000008c;
+    }
+
+    .good h3 {
+        font-weight: 700;
+        text-align: center;
+    }
+
+    span {
+          font-size: 1.5rem;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+     color: #0000008c;
+
+    }
+
+    .avail {
+        color: #0000008c;
+        /* margin-bottom: 100px; */
+    }
+
+    .divider {
+        /* margin-top: 20px; */
+        border-bottom: 1px solid gray;
+        width: 100%;
+    }
+
+    .comma {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .comma p,
+     i{
+        color: mediumseagreen;
+        font-size: 1.3rem;
+    
+    }
+    
+
+    #cli {
+        font-size: 5rem;
+        color: mediumseagreen;
+        /* margin-bottom: 100px; */
+    }
+
+    .view {
+        /* padding: 10px 65px; */
+        border: 3.5px solid mediumseagreen;
+        color: mediumseagreen;
+        width: 45%;
+        height: 40px;
+        /* background-color: transparent; */
+        /* border: 1px solid gray; */
+        padding: 10px;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        width: 100%;
+        background-color: whitesmoke;
+        padding: 12px 0;
+        /* position: fixed;
+        bottom: 0;
+        left: 0;
+        border-top: 1px solid grey; */
+
+    }
+
+
+    .foot1,
+    .foot2,
+    .foot3,
+    .foot4,
+    .foot5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex: 1;
+    }
+    .footer p{
+        font-size: 11px;
+        text-align: center;
+        margin-top: 4px;
+    }
+
+    .footer i {
+        font-size: 20px;
+        color: grey;
+    }
+
+    
+
+    .dolls {
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+        width: 90%;
+        margin-bottom: 20px;
+        height: auto;
+        position: relative;
+        bottom: 18px;
+    }
+    .current{
+        line-height: 5px;
+    }
+    .card {
+  background: white;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.arrow {
+  font-size: 28px;
+  color: #666;
+  cursor: pointer;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.left .title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111;
+  line-height: 1.4;
+}
+
+.left .date {
+  font-size: 15px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.left .balance {
+  font-size: 15px;
+  color: #555;
+  margin-top: 2px;
+}
+
+.amount {
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+.amount.negative {
+  color: #b42318;
+}
+
+.amount.positive {
+  color: #0b5cab;
+}
+    /* .curr{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } */
+
+    @media screen and (max-width: 768px) {
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .section1 {
+            padding: 12px;
+        }
+
+        .words {
+            gap: 12px;
+            align-items: flex-start;
+        }
+
+        .words p {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            font-weight: 600;
+        }
+
+        .words i {
+            font-size: 1rem;
+        }
+
+        .section2 {
+            height: 240px;
+        }
+
+        .craig img {
+            width: 150px;
+            margin-top: 40px;
+        }
+
+        .good h3 {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .cards {
+            width: 95%;
+            max-width: 350px;
+            bottom: 40px;
+            padding: 15px;
+        }
+
+        .cards h1 {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .cards p {
+            font-size: 0.85rem;
+        }
+
+        .dollar {
+            height: auto;
+            margin: 15px 0;
+        }
+
+        .dollar i {
+            font-size: 55px;
+            margin-right: 10px;
+        }
+
+        .dollar span {
+            font-size: 1.7rem;
+            font-weight: 800;
+        }
+
+        .avail p:nth-child(2) {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        #cli {
+            font-size: 4rem;
+        }
+
+        .view {
+            width: 80%;
+            font-weight: 700;
+        }
+
+        .footer {
+            gap: 8px;
+            padding: 8px;
+        }
+
+        .footer p {
+            font-size: 1rem;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .footer i {
+            font-size: 1.1rem;
+        }
+    }
+
+    @media screen and (max-width:480px) {
+
+        .words p,
+        i {
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .words {
+            align-items: center;
+        }
+
+        .craig img {
+            width: 120px;
+        }
+
+        .good h3 {
+            font-size: 1.2rem;
+        }
+
+        .cards {
+            width: 94%;
+        }
+
+        .cards h1 {
+            font-size: 12px;
+        }
+
+        .dollar span {
+            font-size: 1.5rem;
+        }
+
+        .dollar i {
+            /* font-size:45px; */
+            font-size: 65px;
+        }
+
+        .view {
+            width: 90%;
+            font-size: 0.9rem;
+        }
+
+        .footer p {
+            font-size: 0.5rem;
+        }
+
+        .footer i {
+            font-size: 1rem;
+        }
+
+        .craig img {
+            width: 200px;
+        }
+
+        .avail p {
+            font-size: 1rem;
+        }
+    }
